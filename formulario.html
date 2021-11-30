@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>formulario</title> 
+	<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+<h1>formulario de registro</h1>
+<form>
+	<div id="tabla">
+	<table>
+		<tr>
+			<td>
+				<label for="numeros">ingrese un numero</label>
+			</td>
+			<td><input type="text" maxlength="10" name="numeros" id="numeros"></td>
+		</tr>
+		<tr>
+			<td>
+				<label for="texto">ingrese comentario</label>
+			</td>
+			<td><input type="text" maxlength="40" name="texto" id="texto"></td>
+
+		</tr>
+		<tr>
+			<td>
+				<label for="palabra">ingrese comentario</label>
+			</td>
+			<td><input type="text" maxlength="40" name="palabra" id="palabra"></td>
+			
+		</tr>
+		<tr>
+			<td>
+				<label for="texto">ingrese texto</label>
+			</td>
+			<td><textarea rows="3" maxlength="200" name="texto" id="caracteres"></textarea></td>
+		</tr>
+		<tr>
+			<td>
+				<ladel for="fecha">ingrese la fecha</label>
+
+			</td>
+			<td><input type="date" name="fecha" id="fecha"></td>
+		</tr>
+		<tr>
+			<td>
+				<ladel for="hora">ingrese la hora</label>
+
+			</td>
+			<td><input type="time" name="hora" id="hora"></td>
+		</tr>
+		<tr>
+			<td>
+				<label for="seleccionar">seleccione la casilla</label>
+			</td>
+			<td><input type="checkbox" name="seleccionar" id="seleccionar"><label>opcion 1</label><br>
+				<input type="checkbox" name="seleccionar" id="seleccionar"><label>opcion 2</label><br>
+				<input type="checkbox" name="seleccionar" id="seleccionar"><label>opcion 3</label><br></td>
+		</tr>
+		<tr>
+			<td>
+				<label for="opciones">seleccione la opcion</label>
+			</td>
+			<td><input type="radio" name="opciones" id="opciones"><label>opcion 1</label><br>
+			<input type="radio" name="opciones" id="opciones"><label>opcion 2</label><br>
+		    <input type="radio" name="opciones" id="opciones"><label>opcion 2</label><br></td>
+		</tr>
+		<tr>
+			<td>
+				<label for="color">seleccione el color</label>
+			</td>
+			<td><input type="color" name="color" id="color"></td>
+			
+		</tr>
+         <tr>
+         	<td>
+         		<label for="correo">ingrese su correo</label>
+         	</td>
+         	<td><input type="email" name="correo" id="correo"></td>
+         </tr>
+         <tr>
+         	<td>
+         		<label for="lista">seleccione su respuesta</label>
+         	</td>
+         	<td><select name="lista">
+             <option>respuesta 1</option>
+             <option>restuesta 2</option>
+             <option>restuesta 3</option>
+             <option>restuesta 4</option>		
+         	</select> 
+           </td>
+         </tr>
+         <tr>
+         	<td>
+         		<label for="lista desplegable">registre las respuestas</label>
+         	</td>
+         	<td><select name="lista desplegable" multiple>
+        	<optgroup label="grupo1"><option>respuesta 1</option><option>restuesta 2</option></optgroup>
+        	<optgroup label="grupo2"><option>restuesta 3</option><option>restuesta 4</option></optgroup>
+         	</select>
+         	</td>
+         </tr>
+         
+	</table>
+	</div>
+</form>
+</body>
+</html>

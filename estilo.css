@@ -1,0 +1,20 @@
+table{
+	table-layout: initial;
+	width: 180px;
+	border: solid 1px black; 
+
+}
+body {
+	background-color: #c2ccc5;
+	
+}
+td{
+	border: solid 1px black;
+}
+#tabla{
+	display: flex;
+	justify-content: center;
+}
+h1{
+	text-align: center;
+}
